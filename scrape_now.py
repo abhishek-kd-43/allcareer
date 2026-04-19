@@ -11,7 +11,7 @@ Data will be saved to data.json in the same folder.
 import os
 import sys
 
-# Ensure we're in the right directory
+# Ensure we're in the right directory for local runs and GitHub Actions.
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 try:
